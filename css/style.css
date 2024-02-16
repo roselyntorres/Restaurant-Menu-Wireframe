@@ -1,0 +1,44 @@
+[class^="col"] {
+    max-height: 200px;
+    border: 1px solid black;
+}
+.img-fluid {
+    max-height: 100%;
+}
+body
+{
+    background-color: rgb(204, 208, 211);
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color:black;
+    font-weight:500;
+    text-decoration: none;
+    margin-left:40px;
+ }
+ 
+ .navbar a :before{
+     content:'';
+     position: absolute;
+     top:100% ;
+     width:0;
+     left:0;
+     height:2px;
+     background: #5500fd;
+ transition:.3s;
+ }
+ .navbar a:hover: :before{
+     
+ }
+
+ // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
