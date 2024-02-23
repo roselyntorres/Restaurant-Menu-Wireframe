@@ -1,6 +1,7 @@
 [class^="col"] {
     max-height: 200px;
-    border: 1px solid black;
+    border: 2px solid rgb(53, 109, 134);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .img-fluid {
     max-height: 100%;
@@ -17,6 +18,7 @@ body
     font-weight:500;
     text-decoration: none;
     margin-left:40px;
+background: #59809b;
  }
  
  .navbar a :before{
@@ -26,9 +28,13 @@ body
      width:0;
      left:0;
      height:2px;
-     background: #879ba8;
+     background: #59809b;
  transition:.3s;
  }
  .navbar a:hover: :before{
-     
+     width
+ }
+ 
+ .header{
+    font-family: 'Times New Roman', Times, serif;
  }
