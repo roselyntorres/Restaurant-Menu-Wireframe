@@ -8,17 +8,15 @@
 }
 body
 {
-    background-color: rgb(204, 208, 211);
+    background-color: rgb(253, 254, 255);
 }
-
 .navbar a{
     position: relative;
     font-size: 18px;
-    color:black;
-    font-weight:500;
+    color:#70aac6;
+    font-weight:700;
     text-decoration: none;
     margin-left:40px;
-background: #59809b;
  }
  
  .navbar a :before{
@@ -28,13 +26,7 @@ background: #59809b;
      width:0;
      left:0;
      height:2px;
-     background: #59809b;
- transition:.3s;
- }
- .navbar a:hover: :before{
-     width
- }
- 
- .header{
+     background: #5394b2;
+
     font-family: 'Times New Roman', Times, serif;
  }
